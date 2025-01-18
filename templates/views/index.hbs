@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>header_links}}
+</head>
+
+<body>
+  {{>navbar}}
+  <!-- Main header -->
+  <div class="container-fluid main_header">
+     <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                 <!-- Left side div -->
+                <div class="col-md-6 col-12 main_header_left">
+                       <p>Welcome to weather app</p>
+                       <h1>Get The Latest <span class="text_color">Weather</span> Info Of Your City</h1>
+                       <a href="/weather"><button>check now</button></a>
+                </div>
+                  <!-- Right side div -->
+                <div class="col-md-6 col-12 main_header_right">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="w-100" src="https://static.vecteezy.com/system/resources/previews/023/155/585/non_2x/weather-forecast-online-tiny-girl-watching-the-weather-forecast-in-smartphone-app-sun-clouds-wind-thunderstorm-rain-meteorology-science-modern-flat-cartoon-style-illustration-vector.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="w-100" src="https://media.istockphoto.com/id/868098786/photo/thermometer-on-snow-shows-low-temperatures-zero-low-temperatures-in-degrees-celsius-and.jpg?s=612x612&w=0&k=20&c=jOZH4RSlX29thO6GNlvTUlYKUo_DK4xVxvXUTK7Jw5s=" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="w-100" src="https://www.shutterstock.com/shutterstock/photos/2241855279/display_1500/stock-vector-weather-forecast-concept-woman-meteorologist-forecasts-modern-technologies-and-digital-world-2241855279.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+         </div>  
+     </div>
+  </div>  
+  
+  <!-- Footer -->
+       {{>footer}}
+</body>
+
+</html>

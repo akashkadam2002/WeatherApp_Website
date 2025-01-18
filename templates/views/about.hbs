@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>header_links}}
+
+<body>
+   {{>navbar}}
+
+   <!-- Main header -->
+   <div class="container-fluid main_header">
+      <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+               <!-- Left side div -->
+               <div class="col-md-6 col-12 main_header_left">
+                  <p>Welcome to weather app</p>
+                  <h1>This interactive app provides live current temperatures. Search any <span class="text_color">
+                        location </span> to view current weather details for that location.</h1>
+                  <a href="/weather"><button>check now</button></a>
+               </div>
+               <!-- Right side div -->
+               <div class="col-md-6 col-12 main_header_right">
+                  <figure>
+                     <img
+                        src="https://thumbs.dreamstime.com/z/tv-weather-forecast-report-vector-illustration-cartoon-flat-smiling-weatherman-character-working-news-male-reporter-180940195.jpg"
+                        alt="about-image" class="img-fluid" title="Live_Weather">
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Footer -->
+   {{>footer}}
+</body>
+
+</html>

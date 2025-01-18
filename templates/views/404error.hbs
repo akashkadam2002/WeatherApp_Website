@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>header_links}}
+
+<body>
+   {{>navbar}}
+
+   <!-- Main header -->
+   <div class="container-fluid main_header">
+      <div class="row">
+         <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+               <!-- Left side div -->
+               <div class="col-md-12 col-12 main_header_left align-items-center">
+                  <figure class="err-img">
+                     <img
+                        src="https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-1932.jpg"
+                        alt="about-image" class="img-fluid" title="Live_Weather">
+                  </figure>
+                  <p>You are in wrong page</p>
+                  <h1>{{errorMsg}}</h1>
+                  <a href="/"><button>Go back</button></a>
+               </div>
+               <!-- Right side div -->
+               {{!-- <div class="col-md-6 col-12 main_header_right">
+
+               </div> --}}
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- Footer -->
+   {{>footer}}
+</body>
+
+</html>
